@@ -1,3 +1,24 @@
+
 .navbar-brand img{
     height: 3em;
+}
+.buy-now-button{
+    color: white;
+    background-color: black;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+}
+/* .banner-background{
+    max-height: 500px;
+    margin-top: 60px;
+    position: absolute;
+} */
+.right{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.right img{
+    margin-left: 15px;
 }
