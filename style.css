@@ -9,11 +9,12 @@
     border: none;
     border-radius: 8px;
 }
-/* .banner-background{
-    max-height: 500px;
-    margin-top: 60px;
-    position: absolute;
-} */
+.container{
+    margin-bottom: 20px;
+}
+.carousel p{
+    color: gray;
+}
 .right{
     background-image: url(images/bg-1.png);
     background-repeat: no-repeat;
@@ -21,4 +22,48 @@
 }
 .right img{
     margin-left: 15px;
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    color: gray;
+}
+.card-footer{
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 8px rgb(236, 236, 236);
+}
+.cat{
+    text-align: center;
+}
+.underLine{
+    margin: auto;
+    width: 130px;
+    height: 10px;
+    background-image: linear-gradient(to right, rgb(255, 217, 0) 0%, orange 100%);
+    border-radius: 5px;
+}
+.first{
+    background-color: white;
+    box-shadow: 0.5px 0.5px 50px lightgray;
+    border-radius: 0px 20px 0px 40px;
+}
+.first img{
+    padding: 100px 80px;
+}
+.second{
+    background-color: white;
+    box-shadow: 0.5px 0.5px 50px lightgray;
+    margin-top: 50px;
+    border-radius: 20px 0px 40px 0px;
+}
+.second img{
+    padding: 100px 80px;
 }
