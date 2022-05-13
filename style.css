@@ -50,20 +50,16 @@
     background-image: linear-gradient(to right, rgb(255, 217, 0) 0%, orange 100%);
     border-radius: 5px;
 }
-.first{
+.cat-card{
     background-color: white;
     box-shadow: 0.5px 0.5px 50px lightgray;
     border-radius: 0px 20px 0px 40px;
-}
-.first img{
-    padding: 100px 80px;
-}
-.second{
-    background-color: white;
-    box-shadow: 0.5px 0.5px 50px lightgray;
     margin-top: 50px;
-    border-radius: 20px 0px 40px 0px;
 }
-.second img{
+.cat-card img{
     padding: 100px 80px;
+}
+.hero-bg-left{
+    bottom: 0;
+    left: 0;
 }
